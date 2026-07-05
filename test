@@ -1,0 +1,15 @@
+config.py
+✅ llm/openai_client.py
+✅ state.py
+✅ prompts/planner_prompt.py
+✅ prompts/proposal_prompt.py
+✅ agents/planner.py
+✅ agents/executor.py
+✅ graph/workflow.py
+✅ Update main.py to invoke the graph.
+
+⬜ workflow.py          ← LangGraph
+⬜ doc_generator.py     ← Generate .docx
+⬜ main.py              ← Connect FastAPI with LangGraph
+⬜ response.py          ← Update response model (minor)
+⬜ request.py           ← Already done
