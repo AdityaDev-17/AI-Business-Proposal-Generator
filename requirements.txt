@@ -1,0 +1,28 @@
+# FastAPI
+fastapi>=0.116.0
+uvicorn[standard]>=0.35.0
+
+# LangChain & LangGraph
+langchain>=0.3.27
+langgraph>=0.6.0
+
+# LLM Providers
+langchain-openai>=0.3.28
+langchain-mistralai>=0.2.11
+openai>=1.98.0
+mistralai>=1.9.0
+
+# Environment Variables
+python-dotenv>=1.1.1
+
+# Document Generation
+python-docx>=1.2.0
+
+# Data Validation
+pydantic>=2.11.7
+
+# HTTP Client
+httpx>=0.28.1
+
+# Utilities
+typing-extensions>=4.14.1
